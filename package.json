@@ -1,0 +1,26 @@
+{
+  "name": "dateparserjs",
+  "version": "1.0.0",
+  "description": "A lightweight natural language date parser (e.g., 'next Monday', '3 days from now').",
+  "main": "src/simple.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "date",
+    "parser",
+    "natural language",
+    "time",
+    "relative dates"
+  ],
+  "author": "Khotso Tsoaela",
+  "license": "MIT",
+  "dependencies": {
+    "chrono": "^1.0.5",
+    "chrono-node": "^2.7.8",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
